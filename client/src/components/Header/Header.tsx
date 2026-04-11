@@ -1,4 +1,5 @@
 export const Header = () => {
-    return <>
-    </>
+    return <header className="h-[10%] w-full bg-white ">
+        <h1>Header</h1>
+    </header>
 }
