@@ -1,7 +1,5 @@
+import { ProviderRouter } from "./routes/RouterProvider";
+
 export default function App() {
-  return <>
-    <div>
-      Hello World
-    </div>
-  </>
+  return <ProviderRouter />;
 }
